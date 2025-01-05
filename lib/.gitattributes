@@ -1,0 +1,14 @@
+# Ignore CMake files in language detection
+*.cmake linguist-detectable=false
+
+# Explicitly set Dart files as detectable
+*.dart linguist-detectable=true
+
+# Ignore other files that could affect stats
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.html linguist-detectable=false
+*.swift linguist-detectable=false
+*.txt linguist-detectable=false
+*.md linguist-detectable=false
+*.json linguist-detectable=false
